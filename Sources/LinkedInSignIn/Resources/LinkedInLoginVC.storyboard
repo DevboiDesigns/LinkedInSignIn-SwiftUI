@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="4352" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--General Web Controller-->
+        <scene sceneID="D8k-iw-BnN">
+            <objects>
+                <viewController storyboardIdentifier="LinkedInLoginVC" id="zGI-Km-cnv" userLabel="General Web Controller" customClass="LinkedInLoginVC" customModule="LinkedInSignIn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XfY-dZ-1vO"/>
+                        <viewControllerLayoutGuide type="bottom" id="KWh-rN-XPa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sGu-y3-HK8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cn1-xh-hLc">
+                                <rect key="frame" x="0.0" y="50" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="diK-II-2BH"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.0" green="0.46666666670000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Authorize" id="per-PQ-S1j">
+                                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="B4x-eL-hmo">
+                                            <connections>
+                                                <action selector="dismissWithSender:" destination="zGI-Km-cnv" id="Z7i-yX-ZBE"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.46666666666666667" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Cn1-xh-hLc" secondAttribute="trailing" id="AKf-nG-eHs"/>
+                            <constraint firstItem="Cn1-xh-hLc" firstAttribute="leading" secondItem="sGu-y3-HK8" secondAttribute="leading" id="CIO-K3-G0F"/>
+                            <constraint firstItem="Cn1-xh-hLc" firstAttribute="top" secondItem="XfY-dZ-1vO" secondAttribute="bottom" id="c8s-19-0PO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="navigationBar" destination="Cn1-xh-hLc" id="SM0-io-MqF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJr-Ak-WME" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-348" y="45"/>
+        </scene>
+    </scenes>
+</document>
