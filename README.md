@@ -20,7 +20,7 @@ This SwiftUI package provides a streamlined way to integrate LinkedIn Sign-In fu
 2. Import the package in your project:
 
 ```swift
-import LinkedIn_SignIn
+import LinkedInSignIn
 ```
 
 ### Usage
