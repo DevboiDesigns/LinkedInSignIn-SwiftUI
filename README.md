@@ -70,11 +70,11 @@ linkedInHelper.login(from: getRootViewController(), completion: { (accessToken) 
 
 LinkedInSignIn is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
-<sup>Originally created by [Serhii Londar](https://github.com/serhii-londar/LinkedInSignIn), I just put it into a swift package</sup>
-
 ## Star on GitHub 🤩
 
 If you like this tool please take a moment to
 [star it on GitHub](https://github.com/devboidesigns/LinkedInSignIn-SwiftUI).
 
 [![GitHub stars](https://img.shields.io/github/stars/devboidesigns/LinkedInSignIn-SwiftUI?style=social)](https://github.com/devboidesigns/LinkedInSignIn-SwiftUI#start-of-content)
+
+<sup>Originally created by [Serhii Londar](https://github.com/serhii-londar/LinkedInSignIn), I just put it into a swift package</sup>
